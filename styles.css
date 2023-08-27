@@ -1,0 +1,115 @@
+  body, html {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:#0900ff; text-decoration: none;}
+.bar {
+  background-color: #f9f9fb;
+  padding:15px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+  background-image: linear-gradient(to right, #020607 , #0c4769);
+}
+.content {
+  max-width: 1440px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.footer {
+  color: white;
+  min-height: 100px;
+  border-top: solid 1px #cdcdcd;
+  background-image: linear-gradient(to right, #020607 , #0c4769);
+}
+.anchors {
+  border-left: solid 1px #cdcdcd;
+  padding-left: 15px;
+  text-align: center;
+}
+.sidebar {
+  border-right: solid 1px #cdcdcd;
+}
+figure {
+  text-align: center;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+.form-buscar, form input {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  height: 30px;
+}
+.infobox_v2 {
+  background: #f9f9f9;
+  color: #000;
+  font-size: 90%;
+  line-height: 1.1em;
+  float: right;
+  clear: right;
+  margin: 0.5em 0 0.5em 1em;
+  width: 23em;
+  border: 1px solid #aaa;
+  padding: 2px;
+  position: absolute;
+}
+nav {
+  display: block;
+}
+.iframe-youtube {
+  display: flex;
+  justify-content: center;
+}
+header {
+  background-image: linear-gradient(to right, #020607 , #0c4769);
+  }
+.container {
+  max-width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 120px;
+}
+.menu {
+  width: 70%;
+}
+.logo, .sociais {
+  width: 25%;
+}
+.wikitable {
+  background-color: #f8f9fa;
+  color: #202122;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+  position: inherit;
+  margin: 1.5em auto;
+  padding: 0.2em 0.4em;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+  border: 1px solid #a2a9b1;
+  padding: 0.2em 0.4em;
+}
+.sociais {
+  color: #ffd100;
+}
